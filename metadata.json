@@ -1,0 +1,6 @@
+{
+  "name": "Tic Tac Toe Arena",
+  "description": "An extensive, feature-packed Tic Tac Toe game featuring smart AI difficulties, local multiplayer, customizable themes, blitz timer, move replay, and rich statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

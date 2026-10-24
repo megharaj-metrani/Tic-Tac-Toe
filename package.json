@@ -34,24 +34,5 @@
     "@types/express": "^4.17.21"
   }
 }
-Fix the Vercel deployment failure in my QuickBite project.
-
-The build logs show npm ERESOLVE dependency conflicts involving:
-
-vite@8.3.0
-esbuild@0.25.0
-@tailwindcss/vite@4.3.3
-@vitejs/plugin-react
-
-Please inspect the existing package.json, package-lock.json, and vite.config.ts before making changes.
-
-Requirements:
-
-Resolve all incompatible peer dependency versions using officially supported compatible versions.
-Keep the existing React application and QuickBite UI intact.
-Do not use --force or --legacy-peer-deps as the permanent solution.
-Update package.json and regenerate package-lock.json consistently.
-Run npm install and npm run build to verify the fix.
-Report exactly which files were changed and whether the production build succeeds.
 
 Do not remove existing app features or replace the application with a blank template.
